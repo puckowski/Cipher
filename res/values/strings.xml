@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="application_name">Cipher</string>
+
+    <string name="encrypt_file">Encrypt File</string>
+    <string name="decrypt_file">Decrypt File</string>
+    
+    <string name="enter_key">Enter key</string>
+    <string name="verify_key">Verify key</string>
+    <string name="select_file">Select a file</string>
+    
+    <string name="remove_original_file">Remove original file</string>
+    <string name="show_key_text">Show encryption key</string>
+   
+    <string name="key_match_warning">Please enter matching encryption keys</string>
+    <string name="key_match_error">Encryption keys did not exist or match</string>
+    
+    <string name="encrypting_message">Encrypting file now</string>
+    <string name="decrypting_message">Decrypting file now</string> 
+    
+    <string name="encryption_toggle_message">Encryption mode</string>
+    <string name="encryption_turned_on">On</string>
+    <string name="encryption_turned_off">Off</string>
+    
+</resources>

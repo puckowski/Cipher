@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="CipherFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="LargeCipherFont" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="FadedCipherFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#939393</item>
+    </style>
+    
+    <style name="LargeFadedCipherFont" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">#939393</item>
+    </style>
+    
+</resources>

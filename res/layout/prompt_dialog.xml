@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dip">
+
+	<EditText android:id="@+id/encryptionKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/enter_key"
+        android:inputType="textPassword">
+    </EditText>
+     
+    <EditText android:id="@+id/verifyKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/verify_key"
+        android:inputType="textPassword">
+    </EditText>
+    
+    <LinearLayout android:id="@+id/toggleLayout"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton android:id="@+id/encryptionToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CipherFont"
+            android:textOn="@string/encryption_turned_on"
+            android:textOff="@string/encryption_turned_off">
+        </ToggleButton>
+        
+        <TextView android:id="@+id/toggleMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CipherFont"
+            android:layout_marginLeft="10dip"
+            android:text="@string/encryption_toggle_message">
+        </TextView>
+        
+    </LinearLayout>
+    
+</LinearLayout>

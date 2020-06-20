@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            
+	<LinearLayout android:id="@+id/rootLayout"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingBottom="5dip">
+    
+	    <Button android:id="@+id/encryptFile"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/CipherFont"
+	        android:layout_margin="5dip"
+	        android:text="@string/encrypt_file">
+	    </Button>
+	    
+	    <Button android:id="@+id/decryptFile"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/CipherFont"
+	        android:layout_margin="5dip"
+	        android:text="@string/decrypt_file">
+	    </Button>
+	    
+	    <EditText android:id="@+id/encryptionKey"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:hint="@string/enter_key"
+	        android:inputType="textPassword">
+	    </EditText>
+	     
+	    <EditText android:id="@+id/verifyKey"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:hint="@string/verify_key"
+	        android:inputType="textPassword">
+	    </EditText>
+	       
+	    <CheckBox android:id="@+id/removeOriginalFile"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/CipherFont"
+	        android:text="@string/remove_original_file">
+	    </CheckBox>
+	        
+	    <CheckBox android:id="@+id/showKeyText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/CipherFont"
+	        android:text="@string/show_key_text">
+	    </CheckBox>
+	</LinearLayout>
+	
+</ScrollView>
